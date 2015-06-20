@@ -20,6 +20,16 @@
                 "enabled": true,
                 "label": "Button"
             }
+        },
+        "textArea": {
+            "prototype": "digit/ui/text-area.reel",
+            "properties": {
+                "element": {"#": "textArea"},
+                "contenteditable": "true",
+                "dir": "ltr",
+                "draggable": "true",
+                "value": "Text"
+            }
         }
     }
     </script>
@@ -27,6 +37,7 @@
 <body>
     <div data-montage-id="owner" class="MyComponent">
         <button data-montage-id="button"></button>
+        <textarea data-montage-id="textArea"></textarea>
     </div>
 </body>
 </html>

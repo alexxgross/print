@@ -9,12 +9,24 @@
             "properties": {
                 "element": {"#": "owner"}
             }
+        },
+        "button": {
+            "prototype": "digit/ui/button.reel",
+            "properties": {
+                "element": {"#": "button"},
+                "contenteditable": "true",
+                "dir": "ltr",
+                "draggable": "true",
+                "enabled": true,
+                "label": "Button"
+            }
         }
     }
     </script>
 </head>
 <body>
     <div data-montage-id="owner" class="MyComponent">
+        <button data-montage-id="button"></button>
     </div>
 </body>
 </html>
